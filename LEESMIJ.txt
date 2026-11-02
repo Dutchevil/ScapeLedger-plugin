@@ -1,0 +1,55 @@
+SCAPELEDGER - RUNELITE DEV STARTER (WINDOWS)
+
+1. Pak de VOLLEDIGE ZIP uit, bijvoorbeeld naar C:\ScapeLedger-Dev.
+2. Sluit je normale RuneLite-client af (log zo nodig eerst uit).
+3. Dubbelklik op Start-ScapeLedger.cmd. Laat de lib-map erbij staan.
+4. Zoek ScapeLedger in RuneLite's plugininstellingen. De plugin zit al in dit pakket.
+5. Gebruik een uploadsleutel van je eigen ScapeLedger-server en zet de gewenste bronnen aan.
+
+Deze starter start de client rechtstreeks met -ea en --developer-mode --debug.
+Je hoeft geen IntelliJ, Gradle of Git te installeren. De starter probeert eerst de
+Java-runtime van je bestaande RuneLite-installatie, daarna JAVA_HOME en PATH.
+Als geen bruikbare 64-bit Java wordt gevonden: installeer Temurin 17 x64.
+PowerShell-opdracht: winget install --id EclipseAdoptium.Temurin.17.JDK -e
+Open daarna de starter opnieuw. De ZIP bevat GEEN Java-runtime.
+
+De normale RuneLite-installatie en snelkoppeling worden niet aangepast.
+Dit is wel dezelfde clientcode met je gebruikelijke RuneLite-profielmap; het is geen
+los afgeschermd spelaccount. Sluit de gewone client voor de eerste test.
+De ScapeLedger-plugin wordt rechtstreeks geregistreerd. Je hoeft de losse plugin-JAR
+NIET ook nog in de sideloaded-plugins-map te zetten (voorkom dubbel laden).
+De meegeleverde client/dependencies zijn een momentopname. Na een game-/RuneLite-update
+kan dit ontwikkelpakket opnieuw gebouwd moeten worden; dit is geen automatische updater.
+
+SERVER
+De plugin gebruikt vast: https://scapeledger.forhosting.nl
+Je hebt de draaiende server nodig voor synchronisatie, niet om RuneLite in dev mode te openen.
+Verkeer naar deze vaste server gebruikt HTTPS.
+Er is geen Plugin Hub-goedkeuring, storepublicatie of in-game praktijktest geclaimd.
+
+JAGEX ACCOUNT
+Een Jagex Account kan niet automatisch via deze losse starter worden aangemeld.
+Gebruik alleen de officiele ontwikkelprocedure:
+https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts
+RuneLite (configure) -> Client arguments -> --insecure-write-credentials -> Save.
+Start RuneLite eenmaal via de Jagex Launcher en sluit die client daarna.
+Start vervolgens dit ontwikkelpakket. De officiele client kan de lokaal opgeslagen
+ontwikkelcredentials gebruiken. De procedure slaat gevoelige accounttokens op:
+%USERPROFILE%\.runelite\credentials.properties
+Dat bestand geeft toegang tot je account. NOOIT delen, uploaden naar GitHub, in chat
+plakken of naar ScapeLedger sturen. Deze starter leest/kopieert/uploadt het niet.
+Na ontwikkelen: verwijder de configure-optie en het credentials.properties-bestand.
+Bij gelekte tokens: beeindig de sessies via je Jagex-accountinstellingen.
+
+HERKOMST EN TESTS
+Bron: private repository Dutchevil/ScapeLedger, Windows dev starter workflow.
+BUILD.json vermeldt de broncommit, runtime-dependencies en SHA256-bestandshashes.
+Een --check-start controleert Java, asserts, de directe ontwikkelstart en pluginclass;
+dit is geen ingelogde spelsessie en geen bewijs dat synchronisatie op jouw pc werkt.
+Voor eigen controle: Start-ScapeLedger.cmd --check
+
+BIBLIOTHEKEN
+RuneLite en dependencies worden als oorspronkelijke JARs uit hun officiële Maven-repositories
+meegeleverd; service-/licentiebestanden blijven intact. Dit is een niet-officieel
+ScapeLedger-ontwikkelpakket, niet de officiële RuneLite-launcher. Zie THIRD_PARTY.txt.
+

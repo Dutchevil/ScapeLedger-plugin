@@ -1,6 +1,6 @@
 {
     "project": "ScapeLedger Windows development starter",
-    "commit": "fb1d7a65ff6dea0415e3ce1c86965f149f25fd3e",
+    "commit": "33e6fb5260d0956c77d86daefe61d5beee29ad2d",
     "api": "https://scapeledger.forhosting.nl",
     "bundled_jre": false,
     "store_or_pluginhub_release": false,
@@ -509,7 +509,7 @@
         },
         {
             "path": "lib/scapeledger-dev-launcher.jar",
-            "sha256": "11c941d68cb91d26d456de235475876b0cb1a19825d4512a668f83d295bddc24"
+            "sha256": "926ad378661fcb343a4febf831aae6a28208fe093a5d4f2946096844fddc738f"
         },
         {
             "path": "lib/slf4j-api-1.7.25.jar",

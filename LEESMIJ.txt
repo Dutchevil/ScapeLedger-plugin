@@ -53,3 +53,7 @@ RuneLite en dependencies worden als oorspronkelijke JARs uit hun officiële Mave
 meegeleverd; service-/licentiebestanden blijven intact. Dit is een niet-officieel
 ScapeLedger-ontwikkelpakket, niet de officiële RuneLite-launcher. Zie THIRD_PARTY.txt.
 
+
+
+Update 0.7.1-https: live killcounts voor NPC-groepsdoelen. Hiervoor server 0.7.11 of nieuwer gebruiken.
+Sluit RuneLite en pak de volledige ZIP in een nieuwe map uit. Start Start-ScapeLedger.cmd.

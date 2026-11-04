@@ -1,519 +1,522 @@
 {
-    "project": "ScapeLedger Windows development starter",
-    "commit": "d7bb2077b63d65f6035c288cbefb6029382e61a4",
-    "api": "https://scapeledger.forhosting.nl",
-    "bundled_jre": false,
-    "store_or_pluginhub_release": false,
-    "runtime": [
-        {
-            "coordinate": "aopalliance:aopalliance:1.0",
-            "file": "lib/aopalliance-1.0.jar"
-        },
-        {
-            "coordinate": "ch.qos.logback:logback-classic:1.2.9",
-            "file": "lib/logback-classic-1.2.9.jar"
-        },
-        {
-            "coordinate": "ch.qos.logback:logback-core:1.2.9",
-            "file": "lib/logback-core-1.2.9.jar"
-        },
-        {
-            "coordinate": "com.fifesoft:autocomplete:3.1.1",
-            "file": "lib/autocomplete-3.1.1.jar"
-        },
-        {
-            "coordinate": "com.fifesoft:rsyntaxtextarea:3.1.2",
-            "file": "lib/rsyntaxtextarea-3.1.2.jar"
-        },
-        {
-            "coordinate": "com.github.weisj:jsvg:1.2.0",
-            "file": "lib/jsvg-1.2.0.jar"
-        },
-        {
-            "coordinate": "com.google.code.findbugs:jsr305:3.0.2",
-            "file": "lib/jsr305-3.0.2.jar"
-        },
-        {
-            "coordinate": "com.google.code.gson:gson:2.8.5",
-            "file": "lib/gson-2.8.5.jar"
-        },
-        {
-            "coordinate": "com.google.guava:guava:23.2-jre",
-            "file": "lib/guava-23.2-jre.jar"
-        },
-        {
-            "coordinate": "com.google.inject:guice:4.1.0",
-            "file": "lib/guice-4.1.0-no_aop.jar"
-        },
-        {
-            "coordinate": "com.google.protobuf:protobuf-javalite:3.21.12",
-            "file": "lib/protobuf-javalite-3.21.12.jar"
-        },
-        {
-            "coordinate": "com.squareup.okhttp3:okhttp:3.14.9",
-            "file": "lib/okhttp-3.14.9.jar"
-        },
-        {
-            "coordinate": "com.squareup.okio:okio:1.17.2",
-            "file": "lib/okio-1.17.2.jar"
-        },
-        {
-            "coordinate": "javax.inject:javax.inject:1",
-            "file": "lib/javax.inject-1.jar"
-        },
-        {
-            "coordinate": "net.bytebuddy:byte-buddy-agent:1.15.4",
-            "file": "lib/byte-buddy-agent-1.15.4.jar"
-        },
-        {
-            "coordinate": "net.bytebuddy:byte-buddy:1.15.4",
-            "file": "lib/byte-buddy-1.15.4.jar"
-        },
-        {
-            "coordinate": "net.java.dev.jna:jna-platform:5.9.0",
-            "file": "lib/jna-platform-5.9.0.jar"
-        },
-        {
-            "coordinate": "net.java.dev.jna:jna:5.9.0",
-            "file": "lib/jna-5.9.0.jar"
-        },
-        {
-            "coordinate": "net.runelite.arn:http-api:1.2.26",
-            "file": "lib/http-api-1.2.26.jar"
-        },
-        {
-            "coordinate": "net.runelite:client:1.13.5",
-            "file": "lib/client-1.13.5.jar"
-        },
-        {
-            "coordinate": "net.runelite:discord:1.4",
-            "file": "lib/discord-1.4.jar"
-        },
-        {
-            "coordinate": "net.runelite:flatlaf-extras:3.2.5-rl4",
-            "file": "lib/flatlaf-extras-3.2.5-rl4.jar"
-        },
-        {
-            "coordinate": "net.runelite:flatlaf:3.2.5-rl4",
-            "file": "lib/flatlaf-3.2.5-rl4.jar"
-        },
-        {
-            "coordinate": "net.runelite:injected-client:1.13.5",
-            "file": "lib/injected-client-1.13.5.jar"
-        },
-        {
-            "coordinate": "net.runelite:jagexauth:0.3",
-            "file": "lib/jagexauth-0.3.jar"
-        },
-        {
-            "coordinate": "net.runelite:jshell:1.13.5",
-            "file": "lib/jshell-1.13.5.jar"
-        },
-        {
-            "coordinate": "net.runelite:rlawt:1.8",
-            "file": "lib/rlawt-1.8.jar"
-        },
-        {
-            "coordinate": "net.runelite:rlicn:1.1",
-            "file": "lib/rlicn-1.1-windows.jar"
-        },
-        {
-            "coordinate": "net.runelite:runelite-api:1.13.5",
-            "file": "lib/runelite-api-1.13.5.jar"
-        },
-        {
-            "coordinate": "net.sf.jopt-simple:jopt-simple:5.0.1",
-            "file": "lib/jopt-simple-5.0.1.jar"
-        },
-        {
-            "coordinate": "org.apache.commons:commons-lang3:3.7",
-            "file": "lib/commons-lang3-3.7.jar"
-        },
-        {
-            "coordinate": "org.apache.commons:commons-text:1.2",
-            "file": "lib/commons-text-1.2.jar"
-        },
-        {
-            "coordinate": "org.json:json:20090211",
-            "file": "lib/json-20090211.jar"
-        },
-        {
-            "coordinate": "org.junit.jupiter:junit-jupiter-api:5.11.4",
-            "file": "lib/junit-jupiter-api-5.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.jupiter:junit-jupiter-engine:5.11.4",
-            "file": "lib/junit-jupiter-engine-5.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.jupiter:junit-jupiter-params:5.11.4",
-            "file": "lib/junit-jupiter-params-5.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.jupiter:junit-jupiter:5.11.4",
-            "file": "lib/junit-jupiter-5.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.platform:junit-platform-commons:1.11.4",
-            "file": "lib/junit-platform-commons-1.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.platform:junit-platform-engine:1.11.4",
-            "file": "lib/junit-platform-engine-1.11.4.jar"
-        },
-        {
-            "coordinate": "org.junit.platform:junit-platform-launcher:1.11.4",
-            "file": "lib/junit-platform-launcher-1.11.4.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opencl:3.3.2",
-            "file": "lib/lwjgl-opencl-3.3.2.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-linux.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-linux-arm64.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-macos.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-macos-arm64.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-windows-x86.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-windows.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
-            "file": "lib/lwjgl-opengl-3.3.2-natives-windows-arm64.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-linux.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-linux-arm64.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-macos.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-macos-arm64.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-windows-x86.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-windows.jar"
-        },
-        {
-            "coordinate": "org.lwjgl:lwjgl:3.3.2",
-            "file": "lib/lwjgl-3.3.2-natives-windows-arm64.jar"
-        },
-        {
-            "coordinate": "org.mockito:mockito-core:5.14.2",
-            "file": "lib/mockito-core-5.14.2.jar"
-        },
-        {
-            "coordinate": "org.objenesis:objenesis:3.3",
-            "file": "lib/objenesis-3.3.jar"
-        },
-        {
-            "coordinate": "org.opentest4j:opentest4j:1.3.0",
-            "file": "lib/opentest4j-1.3.0.jar"
-        },
-        {
-            "coordinate": "org.slf4j:slf4j-api:1.7.25",
-            "file": "lib/slf4j-api-1.7.25.jar"
-        }
-    ],
-    "files": [
-        {
-            "path": "DIARY-SPEC-LICENSE.txt",
-            "sha256": "957ed97cf0695cfd8285302ab16c83b78453b1c8573adef7661bf895c6bb0513"
-        },
-        {
-            "path": "LEESMIJ.txt",
-            "sha256": "cc2066298b69ea9f3459ec16d366b2f45c04e7b91cf8428631fa45cbdcaf12c6"
-        },
-        {
-            "path": "Start-ScapeLedger.cmd",
-            "sha256": "8a665279553b4d6c8a82d02a7cf18771bef0edb550e19dfa13c25e03416e581d"
-        },
-        {
-            "path": "THIRD_PARTY.txt",
-            "sha256": "1adee4c00a3260f3d05395b19174b0efa6e531d361ca6b546deb2148ae9994e6"
-        },
-        {
-            "path": "lib/aopalliance-1.0.jar",
-            "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
-        },
-        {
-            "path": "lib/autocomplete-3.1.1.jar",
-            "sha256": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d"
-        },
-        {
-            "path": "lib/byte-buddy-1.15.4.jar",
-            "sha256": "4a683d83ff219f20d44f35ca302d821e0c6842e3fa8f9f1ee913eb16f49cec6c"
-        },
-        {
-            "path": "lib/byte-buddy-agent-1.15.4.jar",
-            "sha256": "1d76defd159a564b9cb7a968d0dea27367b8b70ebde75a968e7ef1921bc75ee4"
-        },
-        {
-            "path": "lib/client-1.13.5.jar",
-            "sha256": "8681a4a41859995f2bcbeca82104cc41b017a690d6e77d31efc3dea0f3a3f569"
-        },
-        {
-            "path": "lib/commons-lang3-3.7.jar",
-            "sha256": "6e8dc31e046508d9953c96534edf0c2e0bfe6f468966b5b842b3f87e43b6a847"
-        },
-        {
-            "path": "lib/commons-text-1.2.jar",
-            "sha256": "d4a57bbc1627da7c391308fd0fe910b83170fb66afd117236a5b111d2db1590b"
-        },
-        {
-            "path": "lib/discord-1.4.jar",
-            "sha256": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5"
-        },
-        {
-            "path": "lib/flatlaf-3.2.5-rl4.jar",
-            "sha256": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c"
-        },
-        {
-            "path": "lib/flatlaf-extras-3.2.5-rl4.jar",
-            "sha256": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f"
-        },
-        {
-            "path": "lib/gson-2.8.5.jar",
-            "sha256": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81"
-        },
-        {
-            "path": "lib/guava-23.2-jre.jar",
-            "sha256": "5be9a7d05ba0ccd74708bc8018ae412255f85843c0b92302e9b9befa6ed52564"
-        },
-        {
-            "path": "lib/guice-4.1.0-no_aop.jar",
-            "sha256": "9264c6931c431e928dc64adc842584d5f57d17b2f3aff29221f2b3fdea673dad"
-        },
-        {
-            "path": "lib/http-api-1.2.26.jar",
-            "sha256": "a8ad877104af13cc27857e6ca1db63c34ce742a81513aeeae21bcd97ffe5721b"
-        },
-        {
-            "path": "lib/injected-client-1.13.5.jar",
-            "sha256": "ae478cb9064c51d98dd3ce1d659f16e7ac35279eaf44f44edabb0ffef6699101"
-        },
-        {
-            "path": "lib/jagexauth-0.3.jar",
-            "sha256": "36048b7c23726906bd2cba4318ab56a4d9d330a7392ce5fd63910379d941ad18"
-        },
-        {
-            "path": "lib/javax.inject-1.jar",
-            "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
-        },
-        {
-            "path": "lib/jna-5.9.0.jar",
-            "sha256": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161"
-        },
-        {
-            "path": "lib/jna-platform-5.9.0.jar",
-            "sha256": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724"
-        },
-        {
-            "path": "lib/jopt-simple-5.0.1.jar",
-            "sha256": "9f0c8d50fa4b79b6ff1502dbec8502179d6b9497cacbe17a13074001aed537ec"
-        },
-        {
-            "path": "lib/jshell-1.13.5.jar",
-            "sha256": "33628f0796b13f83d56da6611d682c3799202af6344b75a7914a9fd2333e9b60"
-        },
-        {
-            "path": "lib/json-20090211.jar",
-            "sha256": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a"
-        },
-        {
-            "path": "lib/jsr305-3.0.2.jar",
-            "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
-        },
-        {
-            "path": "lib/jsvg-1.2.0.jar",
-            "sha256": "912f37d85deaaf5b747700f5bd3761a93b14a5161900e7436cff386b6176118a"
-        },
-        {
-            "path": "lib/junit-jupiter-5.11.4.jar",
-            "sha256": "aa880e4afba87d447357e4c1fc098c5cb1d200cb9403496c00d3b35a5bd0e8db"
-        },
-        {
-            "path": "lib/junit-jupiter-api-5.11.4.jar",
-            "sha256": "ab83ef9e51ac4597d59d26b4b58812129550e2f579a404c8af7d09f5ce5b4293"
-        },
-        {
-            "path": "lib/junit-jupiter-engine-5.11.4.jar",
-            "sha256": "cdf8ac59f3fad774ca738ad03890950eeb91833ef0e8908753177edd26f1581c"
-        },
-        {
-            "path": "lib/junit-jupiter-params-5.11.4.jar",
-            "sha256": "02a6e015de7ce94ac7f256e7fa05b8091dea861fe79a555a7993313d0f6c7d96"
-        },
-        {
-            "path": "lib/junit-platform-commons-1.11.4.jar",
-            "sha256": "9edd969b0d0670c54105bc91ae79bd1c6f503e12115faba82073b84c86bbc334"
-        },
-        {
-            "path": "lib/junit-platform-engine-1.11.4.jar",
-            "sha256": "b1dd998f64f9acadc15966d9cd3d08074662677b3e390f0a38fcbf0bb4c72330"
-        },
-        {
-            "path": "lib/junit-platform-launcher-1.11.4.jar",
-            "sha256": "d7430bd029e7fcced53ee445e4d2d1a8a1e043ea4c4df43b6335a857f79761ae"
-        },
-        {
-            "path": "lib/logback-classic-1.2.9.jar",
-            "sha256": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee"
-        },
-        {
-            "path": "lib/logback-core-1.2.9.jar",
-            "sha256": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-linux-arm64.jar",
-            "sha256": "f4f4c13cd70224ec443753837f6652ec7ed11c5857ffc3e7d03e216aef6e663b"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-linux.jar",
-            "sha256": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-macos-arm64.jar",
-            "sha256": "ebb8474ad3c19b906649ac41cef62314fd9b355cea5509d9be0c8728db7a6c38"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-macos.jar",
-            "sha256": "62603b9a92c789f0beb8ec25052f278d6f9ce02c6687c8f1afbc7483da54131a"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-windows-arm64.jar",
-            "sha256": "1575d4e2e789b411b3a193ac04a2c2d53dbc504de80a560578191c1c7d79e5ee"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-windows-x86.jar",
-            "sha256": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2-natives-windows.jar",
-            "sha256": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690"
-        },
-        {
-            "path": "lib/lwjgl-3.3.2.jar",
-            "sha256": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217"
-        },
-        {
-            "path": "lib/lwjgl-opencl-3.3.2.jar",
-            "sha256": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-linux-arm64.jar",
-            "sha256": "836e5641627f7bf3c966c93946f400cb77cdf65b8a347763e55e069d313e6def"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-linux.jar",
-            "sha256": "8956bca64d2851dc14ec6bfbfc55ce35fdff89270b5f2a3c9f70aea77f6d1e17"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-macos-arm64.jar",
-            "sha256": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-macos.jar",
-            "sha256": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-windows-arm64.jar",
-            "sha256": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-windows-x86.jar",
-            "sha256": "c3a32053bb4c042489f40936926487cdaf33089185b847fb298b84a62b5703ff"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2-natives-windows.jar",
-            "sha256": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd"
-        },
-        {
-            "path": "lib/lwjgl-opengl-3.3.2.jar",
-            "sha256": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038"
-        },
-        {
-            "path": "lib/mockito-core-5.14.2.jar",
-            "sha256": "2296141c1e1f2e1ae35c08d36a9ab4563ecd66e03533fe82630a764e7aa49182"
-        },
-        {
-            "path": "lib/objenesis-3.3.jar",
-            "sha256": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
-        },
-        {
-            "path": "lib/okhttp-3.14.9.jar",
-            "sha256": "2570fab55515cbf881d7a4ceef49fc515490bc027057e666776a2832465aeca0"
-        },
-        {
-            "path": "lib/okio-1.17.2.jar",
-            "sha256": "f80ce42d2ffac47ad4c47e1d6f980d604d247ceb1a886705cf4581ab0c9fe2b8"
-        },
-        {
-            "path": "lib/opentest4j-1.3.0.jar",
-            "sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
-        },
-        {
-            "path": "lib/protobuf-javalite-3.21.12.jar",
-            "sha256": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40"
-        },
-        {
-            "path": "lib/rlawt-1.8.jar",
-            "sha256": "24f9b6d77d8de814a8dacddf9c4e2227da70459375ca72cc961ae81d33eff75a"
-        },
-        {
-            "path": "lib/rlicn-1.1-windows.jar",
-            "sha256": "6c7627e53af6b1c56f3cff532fc9b9496d93e1cac655ec506c8f01e7608e69ef"
-        },
-        {
-            "path": "lib/rsyntaxtextarea-3.1.2.jar",
-            "sha256": "5333ffa1166c54853d784943c5c44326a5e27e1613de2c07819ae12afe207097"
-        },
-        {
-            "path": "lib/runelite-api-1.13.5.jar",
-            "sha256": "c30aee4cfec06261dd0a58cc8d82013aa4fb195dc4c9a1899142830d8a6c9d70"
-        },
-        {
-            "path": "lib/scapeledger-dev-launcher.jar",
-            "sha256": "7b21fec1e3b526988a719c5faa8d2342c026d7a2238b7df89e97b0d26dfba968"
-        },
-        {
-            "path": "lib/slf4j-api-1.7.25.jar",
-            "sha256": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
-        }
-    ]
+  "project": "ScapeLedger Windows development starter",
+  "commit": "75343577ad4ed53253b4ec7edf546b930b8368c3",
+  "api": "https://scapeledger.forhosting.nl",
+  "bundled_jre": false,
+  "store_or_pluginhub_release": false,
+  "runtime": [
+    {
+      "coordinate": "aopalliance:aopalliance:1.0",
+      "file": "lib/aopalliance-1.0.jar"
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-classic:1.2.9",
+      "file": "lib/logback-classic-1.2.9.jar"
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-core:1.2.9",
+      "file": "lib/logback-core-1.2.9.jar"
+    },
+    {
+      "coordinate": "com.fifesoft:autocomplete:3.1.1",
+      "file": "lib/autocomplete-3.1.1.jar"
+    },
+    {
+      "coordinate": "com.fifesoft:rsyntaxtextarea:3.1.2",
+      "file": "lib/rsyntaxtextarea-3.1.2.jar"
+    },
+    {
+      "coordinate": "com.github.weisj:jsvg:1.2.0",
+      "file": "lib/jsvg-1.2.0.jar"
+    },
+    {
+      "coordinate": "com.google.code.findbugs:jsr305:3.0.2",
+      "file": "lib/jsr305-3.0.2.jar"
+    },
+    {
+      "coordinate": "com.google.code.gson:gson:2.8.5",
+      "file": "lib/gson-2.8.5.jar"
+    },
+    {
+      "coordinate": "com.google.guava:guava:23.2-jre",
+      "file": "lib/guava-23.2-jre.jar"
+    },
+    {
+      "coordinate": "com.google.inject:guice:4.1.0",
+      "file": "lib/guice-4.1.0-no_aop.jar"
+    },
+    {
+      "coordinate": "com.google.protobuf:protobuf-javalite:3.21.12",
+      "file": "lib/protobuf-javalite-3.21.12.jar"
+    },
+    {
+      "coordinate": "com.squareup.okhttp3:okhttp:3.14.9",
+      "file": "lib/okhttp-3.14.9.jar"
+    },
+    {
+      "coordinate": "com.squareup.okio:okio:1.17.2",
+      "file": "lib/okio-1.17.2.jar"
+    },
+    {
+      "coordinate": "javax.inject:javax.inject:1",
+      "file": "lib/javax.inject-1.jar"
+    },
+    {
+      "coordinate": "net.bytebuddy:byte-buddy-agent:1.15.4",
+      "file": "lib/byte-buddy-agent-1.15.4.jar"
+    },
+    {
+      "coordinate": "net.bytebuddy:byte-buddy:1.15.4",
+      "file": "lib/byte-buddy-1.15.4.jar"
+    },
+    {
+      "coordinate": "net.java.dev.jna:jna-platform:5.9.0",
+      "file": "lib/jna-platform-5.9.0.jar"
+    },
+    {
+      "coordinate": "net.java.dev.jna:jna:5.9.0",
+      "file": "lib/jna-5.9.0.jar"
+    },
+    {
+      "coordinate": "net.runelite.arn:http-api:1.2.26",
+      "file": "lib/http-api-1.2.26.jar"
+    },
+    {
+      "coordinate": "net.runelite:client:1.13.5",
+      "file": "lib/client-1.13.5.jar"
+    },
+    {
+      "coordinate": "net.runelite:discord:1.4",
+      "file": "lib/discord-1.4.jar"
+    },
+    {
+      "coordinate": "net.runelite:flatlaf-extras:3.2.5-rl4",
+      "file": "lib/flatlaf-extras-3.2.5-rl4.jar"
+    },
+    {
+      "coordinate": "net.runelite:flatlaf:3.2.5-rl4",
+      "file": "lib/flatlaf-3.2.5-rl4.jar"
+    },
+    {
+      "coordinate": "net.runelite:injected-client:1.13.5",
+      "file": "lib/injected-client-1.13.5.jar"
+    },
+    {
+      "coordinate": "net.runelite:jagexauth:0.3",
+      "file": "lib/jagexauth-0.3.jar"
+    },
+    {
+      "coordinate": "net.runelite:jshell:1.13.5",
+      "file": "lib/jshell-1.13.5.jar"
+    },
+    {
+      "coordinate": "net.runelite:rlawt:1.8",
+      "file": "lib/rlawt-1.8.jar"
+    },
+    {
+      "coordinate": "net.runelite:rlicn:1.1",
+      "file": "lib/rlicn-1.1-windows.jar"
+    },
+    {
+      "coordinate": "net.runelite:runelite-api:1.13.5",
+      "file": "lib/runelite-api-1.13.5.jar"
+    },
+    {
+      "coordinate": "net.sf.jopt-simple:jopt-simple:5.0.1",
+      "file": "lib/jopt-simple-5.0.1.jar"
+    },
+    {
+      "coordinate": "org.apache.commons:commons-lang3:3.7",
+      "file": "lib/commons-lang3-3.7.jar"
+    },
+    {
+      "coordinate": "org.apache.commons:commons-text:1.2",
+      "file": "lib/commons-text-1.2.jar"
+    },
+    {
+      "coordinate": "org.json:json:20090211",
+      "file": "lib/json-20090211.jar"
+    },
+    {
+      "coordinate": "org.junit.jupiter:junit-jupiter-api:5.11.4",
+      "file": "lib/junit-jupiter-api-5.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.jupiter:junit-jupiter-engine:5.11.4",
+      "file": "lib/junit-jupiter-engine-5.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.jupiter:junit-jupiter-params:5.11.4",
+      "file": "lib/junit-jupiter-params-5.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.jupiter:junit-jupiter:5.11.4",
+      "file": "lib/junit-jupiter-5.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.platform:junit-platform-commons:1.11.4",
+      "file": "lib/junit-platform-commons-1.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.platform:junit-platform-engine:1.11.4",
+      "file": "lib/junit-platform-engine-1.11.4.jar"
+    },
+    {
+      "coordinate": "org.junit.platform:junit-platform-launcher:1.11.4",
+      "file": "lib/junit-platform-launcher-1.11.4.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opencl:3.3.2",
+      "file": "lib/lwjgl-opencl-3.3.2.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-linux.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-linux-arm64.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-macos.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-macos-arm64.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-windows-x86.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-windows.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl-opengl:3.3.2",
+      "file": "lib/lwjgl-opengl-3.3.2-natives-windows-arm64.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-linux.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-linux-arm64.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-macos.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-macos-arm64.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-windows-x86.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-windows.jar"
+    },
+    {
+      "coordinate": "org.lwjgl:lwjgl:3.3.2",
+      "file": "lib/lwjgl-3.3.2-natives-windows-arm64.jar"
+    },
+    {
+      "coordinate": "org.mockito:mockito-core:5.14.2",
+      "file": "lib/mockito-core-5.14.2.jar"
+    },
+    {
+      "coordinate": "org.objenesis:objenesis:3.3",
+      "file": "lib/objenesis-3.3.jar"
+    },
+    {
+      "coordinate": "org.opentest4j:opentest4j:1.3.0",
+      "file": "lib/opentest4j-1.3.0.jar"
+    },
+    {
+      "coordinate": "org.slf4j:slf4j-api:1.7.25",
+      "file": "lib/slf4j-api-1.7.25.jar"
+    }
+  ],
+  "files": [
+    {
+      "path": "DIARY-SPEC-LICENSE.txt",
+      "sha256": "957ed97cf0695cfd8285302ab16c83b78453b1c8573adef7661bf895c6bb0513"
+    },
+    {
+      "path": "LEESMIJ.txt",
+      "sha256": "1c5851d10741cdc89074092e0700483a9d5e0a279baf8861834b0a7da7bf546a"
+    },
+    {
+      "path": "Start-ScapeLedger.cmd",
+      "sha256": "8a665279553b4d6c8a82d02a7cf18771bef0edb550e19dfa13c25e03416e581d"
+    },
+    {
+      "path": "THIRD_PARTY.txt",
+      "sha256": "1adee4c00a3260f3d05395b19174b0efa6e531d361ca6b546deb2148ae9994e6"
+    },
+    {
+      "path": "lib/aopalliance-1.0.jar",
+      "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+    },
+    {
+      "path": "lib/autocomplete-3.1.1.jar",
+      "sha256": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d"
+    },
+    {
+      "path": "lib/byte-buddy-1.15.4.jar",
+      "sha256": "4a683d83ff219f20d44f35ca302d821e0c6842e3fa8f9f1ee913eb16f49cec6c"
+    },
+    {
+      "path": "lib/byte-buddy-agent-1.15.4.jar",
+      "sha256": "1d76defd159a564b9cb7a968d0dea27367b8b70ebde75a968e7ef1921bc75ee4"
+    },
+    {
+      "path": "lib/client-1.13.5.jar",
+      "sha256": "8681a4a41859995f2bcbeca82104cc41b017a690d6e77d31efc3dea0f3a3f569"
+    },
+    {
+      "path": "lib/commons-lang3-3.7.jar",
+      "sha256": "6e8dc31e046508d9953c96534edf0c2e0bfe6f468966b5b842b3f87e43b6a847"
+    },
+    {
+      "path": "lib/commons-text-1.2.jar",
+      "sha256": "d4a57bbc1627da7c391308fd0fe910b83170fb66afd117236a5b111d2db1590b"
+    },
+    {
+      "path": "lib/discord-1.4.jar",
+      "sha256": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5"
+    },
+    {
+      "path": "lib/flatlaf-3.2.5-rl4.jar",
+      "sha256": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c"
+    },
+    {
+      "path": "lib/flatlaf-extras-3.2.5-rl4.jar",
+      "sha256": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f"
+    },
+    {
+      "path": "lib/gson-2.8.5.jar",
+      "sha256": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81"
+    },
+    {
+      "path": "lib/guava-23.2-jre.jar",
+      "sha256": "5be9a7d05ba0ccd74708bc8018ae412255f85843c0b92302e9b9befa6ed52564"
+    },
+    {
+      "path": "lib/guice-4.1.0-no_aop.jar",
+      "sha256": "9264c6931c431e928dc64adc842584d5f57d17b2f3aff29221f2b3fdea673dad"
+    },
+    {
+      "path": "lib/http-api-1.2.26.jar",
+      "sha256": "a8ad877104af13cc27857e6ca1db63c34ce742a81513aeeae21bcd97ffe5721b"
+    },
+    {
+      "path": "lib/injected-client-1.13.5.jar",
+      "sha256": "ae478cb9064c51d98dd3ce1d659f16e7ac35279eaf44f44edabb0ffef6699101"
+    },
+    {
+      "path": "lib/jagexauth-0.3.jar",
+      "sha256": "36048b7c23726906bd2cba4318ab56a4d9d330a7392ce5fd63910379d941ad18"
+    },
+    {
+      "path": "lib/javax.inject-1.jar",
+      "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+    },
+    {
+      "path": "lib/jna-5.9.0.jar",
+      "sha256": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161"
+    },
+    {
+      "path": "lib/jna-platform-5.9.0.jar",
+      "sha256": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724"
+    },
+    {
+      "path": "lib/jopt-simple-5.0.1.jar",
+      "sha256": "9f0c8d50fa4b79b6ff1502dbec8502179d6b9497cacbe17a13074001aed537ec"
+    },
+    {
+      "path": "lib/jshell-1.13.5.jar",
+      "sha256": "33628f0796b13f83d56da6611d682c3799202af6344b75a7914a9fd2333e9b60"
+    },
+    {
+      "path": "lib/json-20090211.jar",
+      "sha256": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a"
+    },
+    {
+      "path": "lib/jsr305-3.0.2.jar",
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+    },
+    {
+      "path": "lib/jsvg-1.2.0.jar",
+      "sha256": "912f37d85deaaf5b747700f5bd3761a93b14a5161900e7436cff386b6176118a"
+    },
+    {
+      "path": "lib/junit-jupiter-5.11.4.jar",
+      "sha256": "aa880e4afba87d447357e4c1fc098c5cb1d200cb9403496c00d3b35a5bd0e8db"
+    },
+    {
+      "path": "lib/junit-jupiter-api-5.11.4.jar",
+      "sha256": "ab83ef9e51ac4597d59d26b4b58812129550e2f579a404c8af7d09f5ce5b4293"
+    },
+    {
+      "path": "lib/junit-jupiter-engine-5.11.4.jar",
+      "sha256": "cdf8ac59f3fad774ca738ad03890950eeb91833ef0e8908753177edd26f1581c"
+    },
+    {
+      "path": "lib/junit-jupiter-params-5.11.4.jar",
+      "sha256": "02a6e015de7ce94ac7f256e7fa05b8091dea861fe79a555a7993313d0f6c7d96"
+    },
+    {
+      "path": "lib/junit-platform-commons-1.11.4.jar",
+      "sha256": "9edd969b0d0670c54105bc91ae79bd1c6f503e12115faba82073b84c86bbc334"
+    },
+    {
+      "path": "lib/junit-platform-engine-1.11.4.jar",
+      "sha256": "b1dd998f64f9acadc15966d9cd3d08074662677b3e390f0a38fcbf0bb4c72330"
+    },
+    {
+      "path": "lib/junit-platform-launcher-1.11.4.jar",
+      "sha256": "d7430bd029e7fcced53ee445e4d2d1a8a1e043ea4c4df43b6335a857f79761ae"
+    },
+    {
+      "path": "lib/logback-classic-1.2.9.jar",
+      "sha256": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee"
+    },
+    {
+      "path": "lib/logback-core-1.2.9.jar",
+      "sha256": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-linux-arm64.jar",
+      "sha256": "f4f4c13cd70224ec443753837f6652ec7ed11c5857ffc3e7d03e216aef6e663b"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-linux.jar",
+      "sha256": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-macos-arm64.jar",
+      "sha256": "ebb8474ad3c19b906649ac41cef62314fd9b355cea5509d9be0c8728db7a6c38"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-macos.jar",
+      "sha256": "62603b9a92c789f0beb8ec25052f278d6f9ce02c6687c8f1afbc7483da54131a"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-windows-arm64.jar",
+      "sha256": "1575d4e2e789b411b3a193ac04a2c2d53dbc504de80a560578191c1c7d79e5ee"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-windows-x86.jar",
+      "sha256": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2-natives-windows.jar",
+      "sha256": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690"
+    },
+    {
+      "path": "lib/lwjgl-3.3.2.jar",
+      "sha256": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217"
+    },
+    {
+      "path": "lib/lwjgl-opencl-3.3.2.jar",
+      "sha256": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-linux-arm64.jar",
+      "sha256": "836e5641627f7bf3c966c93946f400cb77cdf65b8a347763e55e069d313e6def"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-linux.jar",
+      "sha256": "8956bca64d2851dc14ec6bfbfc55ce35fdff89270b5f2a3c9f70aea77f6d1e17"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-macos-arm64.jar",
+      "sha256": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-macos.jar",
+      "sha256": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-windows-arm64.jar",
+      "sha256": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-windows-x86.jar",
+      "sha256": "c3a32053bb4c042489f40936926487cdaf33089185b847fb298b84a62b5703ff"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2-natives-windows.jar",
+      "sha256": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd"
+    },
+    {
+      "path": "lib/lwjgl-opengl-3.3.2.jar",
+      "sha256": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038"
+    },
+    {
+      "path": "lib/mockito-core-5.14.2.jar",
+      "sha256": "2296141c1e1f2e1ae35c08d36a9ab4563ecd66e03533fe82630a764e7aa49182"
+    },
+    {
+      "path": "lib/objenesis-3.3.jar",
+      "sha256": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
+    },
+    {
+      "path": "lib/okhttp-3.14.9.jar",
+      "sha256": "2570fab55515cbf881d7a4ceef49fc515490bc027057e666776a2832465aeca0"
+    },
+    {
+      "path": "lib/okio-1.17.2.jar",
+      "sha256": "f80ce42d2ffac47ad4c47e1d6f980d604d247ceb1a886705cf4581ab0c9fe2b8"
+    },
+    {
+      "path": "lib/opentest4j-1.3.0.jar",
+      "sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+    },
+    {
+      "path": "lib/protobuf-javalite-3.21.12.jar",
+      "sha256": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40"
+    },
+    {
+      "path": "lib/rlawt-1.8.jar",
+      "sha256": "24f9b6d77d8de814a8dacddf9c4e2227da70459375ca72cc961ae81d33eff75a"
+    },
+    {
+      "path": "lib/rlicn-1.1-windows.jar",
+      "sha256": "6c7627e53af6b1c56f3cff532fc9b9496d93e1cac655ec506c8f01e7608e69ef"
+    },
+    {
+      "path": "lib/rsyntaxtextarea-3.1.2.jar",
+      "sha256": "5333ffa1166c54853d784943c5c44326a5e27e1613de2c07819ae12afe207097"
+    },
+    {
+      "path": "lib/runelite-api-1.13.5.jar",
+      "sha256": "c30aee4cfec06261dd0a58cc8d82013aa4fb195dc4c9a1899142830d8a6c9d70"
+    },
+    {
+      "path": "lib/scapeledger-dev-launcher.jar",
+      "sha256": "c9505bd52302a56f4550f7cc2b612be38a424ab33396e5212de796802772fa16"
+    },
+    {
+      "path": "lib/slf4j-api-1.7.25.jar",
+      "sha256": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
+    }
+  ],
+  "base_package_commit": "d7bb2077b63d65f6035c288cbefb6029382e61a4",
+  "plugin_version": "0.7.1-https",
+  "build_method": "Incremental DisplayState compilation against unchanged RuneLite 1.13.5 runtime dependencies; Java 11 bytecode"
 }

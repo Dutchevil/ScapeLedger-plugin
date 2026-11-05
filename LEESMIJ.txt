@@ -1,3 +1,10 @@
+ScapeLedger 0.7.4-https — compacte doeloverlay met percentage
+
+Doelnaam met afbeelding, blauwe balk, behaalde XP / totaal benodigde XP en percentage.
+Killcount- en itemdoelen tonen huidige voortgang / doel. Lange titels breken af over regels.
+Vereist server 0.7.13 voor uniforme killcount-startpunten. Geen contentimport nodig.
+Sluit RuneLite, pak dit volledige pakket in een nieuwe map uit en start Start-ScapeLedger.cmd.
+
 SCAPELEDGER - RUNELITE DEV STARTER (WINDOWS)
 
 1. Pak de VOLLEDIGE ZIP uit, bijvoorbeeld naar C:\ScapeLedger-Dev.

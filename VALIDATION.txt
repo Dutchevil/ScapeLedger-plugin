@@ -1,0 +1,64 @@
+Incremental compilation against RuneLite 1.13.5; classfile 55.
+
+warning: [options] system modules path not set in conjunction with -source 11
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+only showing the first 3 warnings, of 194 total; use -Xmaxwarns if you would like to see more
+
+RunSlayerTests app.scapeledger.RoadmapSelectionTest app.scapeledger.FarmingUploadContractTest app.scapeledger.SlayerTimelineTest app.scapeledger.LootContextHistoryTest app.scapeledger.SyncFeedbackTest app.scapeledger.ContainerUploadTest app.scapeledger.ContainerOutboxProfileTest app.scapeledger.ContainerSnapshotsTest app.scapeledger.CompletionCardTest app.scapeledger.ExtendedTrackerTest app.scapeledger.LootHistoryReaderTest app.scapeledger.SlayerDialogReaderTest app.scapeledger.SkillGoalDisplayTest app.scapeledger.QuestGameDataTest app.scapeledger.FarmingStartEstimateTest app.scapeledger.SlayerCacheRewardsTest app.scapeledger.ChargesStorageReaderTest app.scapeledger.UploadStatusTest
+
+Test run finished after 4442 ms
+[        19 containers found      ]
+[         0 containers skipped    ]
+[        19 containers started    ]
+[         0 containers aborted    ]
+[        19 containers successful ]
+[         0 containers failed     ]
+[        97 tests found           ]
+[         0 tests skipped         ]
+[        97 tests started         ]
+[         0 tests aborted         ]
+[        97 tests successful      ]
+[         0 tests failed          ]
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+app.scapeledger.GoalArtworkTest
+Goal artwork assertions passed: fixed origin, bounds, decoding, async preload, cache reuse, no render HTTP, shutdown.
+
+app.scapeledger.SyncPolicyTest
+19 scheduling/endpoint assertions passed. RuneLite integration NOT compiled here.
+
+app.scapeledger.StorageLedgerTest
+Storage baseline and account-isolation checks passed
+
+app.scapeledger.EnglishFeedbackTest
+English API upload diagnostics passed, including legacy compatibility and redaction.
+
+app.scapeledger.OverlayLayoutTest
+Overlay layout assertions passed: XP from start, compact counts, percentages, unknown source and wrapped titles.
+
+app.scapeledger.PanelDisplayTest
+Panel display/default/persistence/state checks passed
+
+app.scapeledger.LiveKillcountTest
+Live killcount assertions passed: variants, stale polls, acknowledgements, completion, edits and profile isolation.
+
+app.scapeledger.DisplayStateTest
+Display-state assertions passed: server apply, live skills, sticky completion, live owned items, legacy item goals and family loot.
+
+app.scapeledger.ExtendedPlannerFactsTest
+Planner facts: blocked names, unlock value, lookup cache and account reset passed.
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+Packaged launcher self-check:
+READY: direct RuneLite development entrypoint; assertions enabled; ScapeLedger available.
+RuneLite version: 1.13.5
+ScapeLedger server: https://scapeledger.forhosting.nl
+
+Native Windows and live gameplay not tested.

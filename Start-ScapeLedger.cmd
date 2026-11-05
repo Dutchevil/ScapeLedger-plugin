@@ -1,6 +1,6 @@
 @echo off
 setlocal DisableDelayedExpansion
-title ScapeLedger - RuneLite ontwikkelmodus
+title ScapeLedger - RuneLite development mode
 cd /d "%~dp0"
 if not exist "%~dp0lib\scapeledger-dev-launcher.jar" goto :incomplete
 set "JAVA_CMD="
@@ -15,9 +15,9 @@ if not defined JAVA_CMD goto :noJava
 if errorlevel 1 goto :failed
 if /i "%~1"=="--check" exit /b 0
 echo.
-echo RuneLite start rechtstreeks in ontwikkelmodus. ScapeLedger wordt automatisch geladen.
-echo De normale RuneLite-installatie wordt niet gewijzigd.
-echo Sluit dit venster niet zolang je deze RuneLite-client gebruikt.
+echo RuneLite starts directly in development mode. ScapeLedger loads automatically.
+echo Your normal RuneLite installation is unchanged.
+echo Keep this window open while using this RuneLite client.
 echo.
 "%JAVA_CMD%" -ea -cp "%~dp0lib\*" app.scapeledger.WindowsDevLauncher --developer-mode --debug
 if errorlevel 1 goto :failed
@@ -31,24 +31,24 @@ if not errorlevel 1 set "JAVA_CMD=%~1"
 exit /b 0
 
 :noJava
-echo Geen bruikbare 64-bit Java-runtime gevonden, of het pakket is onvolledig.
-echo Pak de HELE ZIP uit, inclusief de map lib.
-echo Is Java nodig? Installeer Temurin 17 x64 en open deze starter opnieuw:
+echo No compatible 64-bit Java runtime found, or the package is incomplete.
+echo Extract the ENTIRE ZIP, including the lib directory.
+echo Need Java? Install Temurin 17 x64 and reopen this launcher:
 echo winget install --id EclipseAdoptium.Temurin.17.JDK -e
-echo Deel geen credentials.properties, wachtwoorden of sessietokens.
+echo Do not share credentials.properties, passwords or session tokens.
 if /i "%~1"=="--check" exit /b 1
 pause
 exit /b 1
 
 :incomplete
-echo Pak eerst de HELE ZIP uit. De starter moet naast de map lib staan.
+echo Extract the ENTIRE ZIP first. Keep the launcher beside the lib directory.
 if /i "%~1"=="--check" exit /b 1
 pause
 exit /b 1
 
 :failed
 echo.
-echo Start mislukt. De foutmelding staat hierboven; deel geen login-/sessiegeheimen.
+echo Launch failed. See the error above; do not share login or session secrets.
 if /i "%~1"=="--check" exit /b 1
 pause
 exit /b 1

@@ -30,4 +30,3 @@ This mapping is used for local game-var reads only. No WikiSync connection or se
 
 Also covers adapted StorageItemSpec, StorageItemLedger and StorageItemMonitor.
 ScapeLedger changes: no separate network uploader, source opt-in gates, known session baselines, and complete account-state reset.
-
